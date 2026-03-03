@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "services": "Services",
+        "voices": "Voices",
+        "contact": "Contact",
+        "lang": "TR"
+    },
+    "hero": {
+        "headline": "Let the World Hear Your Voice",
+        "sub": "Professional voiceover, dubbing, and media production services",
+        "cta": "Explore"
+    },
+    "services": {
+        "title": "Our Services",
+        "sub": "End-to-end media production solutions",
+        "items": [
+            {
+                "title": "Dubbing",
+                "description": "Native-quality, character-driven professional dubbing for film, series, and documentary projects. Guaranteed lip-sync accuracy and emotional depth.",
+                "icon": "clapperboard",
+                "image": "/dubbing_mic.png"
+            },
+            {
+                "title": "Sound Design",
+                "description": "We build your project's sonic universe from scratch with Foley, ambiance, and effect layers. Studio-quality sound design for cinematic productions.",
+                "icon": "audio-waveform",
+                "image": "/sound_design.png"
+            },
+            {
+                "title": "Podcast Production",
+                "description": "End-to-end podcast production from concept development to editing and publishing. Professional recording, editing, and mastering.",
+                "icon": "mic",
+                "image": "/podcast_prod.png"
+            },
+            {
+                "title": "Ad Music & Jingles",
+                "description": "Original music compositions and memorable jingles tailored to your brand's DNA. Ready for radio, TV, and digital campaigns.",
+                "icon": "music",
+                "image": "/ad_music.png"
+            },
+            {
+                "title": "Audio Branding",
+                "description": "Sonic logo, brand melody, and corporate audio identity design. Create a consistent auditory experience across all touchpoints.",
+                "icon": "radio",
+                "image": "/mixing_console.png"
+            },
+            {
+                "title": "Localization",
+                "description": "We adapt your content to the language and culture of your target market. Translation, transcription, and cultural adaptation services.",
+                "icon": "globe",
+                "image": "/localization.png"
+            },
+            {
+                "title": "Game Voiceover",
+                "description": "Character dialogues, narrator voices, and in-game sound effects. Experienced game voiceover team for AAA and indie projects.",
+                "icon": "gamepad-2",
+                "image": "/game_vo.png"
+            },
+            {
+                "title": "IVR & Corporate Announcements",
+                "description": "PBX voiceover, IVR menu recordings, and corporate promotional announcements. Professional, trust-building voice solutions for your brand.",
+                "icon": "phone",
+                "image": "/ivr_corporate.png"
+            },
+            {
+                "title": "Audiobooks",
+                "description": "Audiobook productions brought to life by experienced narrators. Professional studio recording and mastering for fiction and non-fiction works.",
+                "icon": "book-open",
+                "image": "/podcast_mics.png"
+            }
+        ]
+    },
+    "voicebank": {
+        "title": "Elite Voice Bank",
+        "sub": "Discover the best voices for your projects",
+        "all": "All",
+        "male": "Male",
+        "female": "Female",
+        "play": "Play",
+        "pause": "Pause",
+        "noArtists": "No artists found yet."
+    },
+    "contact": {
+        "title": "Let's Work Together",
+        "sub": "Take your project to the next level",
+        "cta": "Get In Touch"
+    },
+    "preloader": {
+        "production": "PRODUCTION"
+    },
+    "footer": {
+        "rights": "All rights reserved."
+    }
+}

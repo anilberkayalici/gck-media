@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "services": "Hizmetler",
+        "voices": "Sesler",
+        "contact": "İletişim",
+        "lang": "EN"
+    },
+    "hero": {
+        "headline": "Sesinizi Dünyaya Duyurun",
+        "sub": "Profesyonel seslendirme, dublaj ve medya prodüksiyon hizmetleri",
+        "cta": "Keşfedin"
+    },
+    "services": {
+        "title": "Hizmetlerimiz",
+        "sub": "Uçtan uca medya prodüksiyon çözümleri",
+        "items": [
+            {
+                "title": "Dublaj",
+                "description": "Film, dizi ve belgesel projeleriniz için ana dil kalitesinde, karakter odaklı profesyonel dublaj hizmeti. Lip-sync uyumu ve duygusal derinlik garantili.",
+                "icon": "clapperboard",
+                "image": "/dubbing_mic.png"
+            },
+            {
+                "title": "Ses Tasarımı",
+                "description": "Foley, ambiyans ve efekt katmanlarıyla projenizin ses evrenini sıfırdan inşa ediyoruz. Sinematik prodüksiyonlar için stüdyo kalitesinde ses tasarımı.",
+                "icon": "audio-waveform",
+                "image": "/sound_design.png"
+            },
+            {
+                "title": "Podcast Prodüksiyon",
+                "description": "Konsept geliştirmeden montaj ve yayına kadar uçtan uca podcast prodüksiyon hizmeti. Profesyonel ses kaydı, düzenleme ve mastering.",
+                "icon": "mic",
+                "image": "/podcast_prod.png"
+            },
+            {
+                "title": "Reklam Müziği & Jingle",
+                "description": "Markanızın DNA'sına uygun orijinal müzik besteleri ve akılda kalıcı jingle'lar. Radyo, TV ve dijital kampanyalarınız için hazır.",
+                "icon": "music",
+                "image": "/ad_music.png"
+            },
+            {
+                "title": "Audio Branding",
+                "description": "Sonic logo, marka melodisi ve kurumsal ses kimliği tasarımı. Markanızın sesini oluşturarak tüm temas noktalarında tutarlı bir işitsel deneyim yaratın.",
+                "icon": "radio",
+                "image": "/mixing_console.png"
+            },
+            {
+                "title": "Yerelleştirme",
+                "description": "İçeriklerinizi hedef pazarın dil ve kültürüne uygun şekilde adapte ediyoruz. Çeviri, transkripsiyon ve kültürel uyarlama hizmetleri.",
+                "icon": "globe",
+                "image": "/localization.png"
+            },
+            {
+                "title": "Oyun Seslendirme",
+                "description": "Karakter diyalogları, anlatıcı sesleri ve oyun içi ses efektleri. AAA ve indie oyun projeleriniz için deneyimli oyun seslendirme ekibi.",
+                "icon": "gamepad-2",
+                "image": "/game_vo.png"
+            },
+            {
+                "title": "IVR & Kurumsal Anons",
+                "description": "Santral seslendirme, IVR menü kayıtları ve kurumsal tanıtım anonsları. Markanızı temsil eden profesyonel ve güven veren ses çözümleri.",
+                "icon": "phone",
+                "image": "/ivr_corporate.png"
+            },
+            {
+                "title": "Sesli Kitap",
+                "description": "Deneyimli anlatıcılarla hayat bulan sesli kitap prodüksiyonları. Kurgu ve kurgu dışı eserler için profesyonel stüdyo kaydı ve mastering.",
+                "icon": "book-open",
+                "image": "/podcast_mics.png"
+            }
+        ]
+    },
+    "voicebank": {
+        "title": "Elit Seslendirme Bankası",
+        "sub": "Projeleriniz için en iyi sesleri keşfedin",
+        "all": "Tümü",
+        "male": "Erkek",
+        "female": "Kadın",
+        "play": "Oynat",
+        "pause": "Durdur",
+        "noArtists": "Henüz sanatçı bulunmamaktadır."
+    },
+    "contact": {
+        "title": "Birlikte Çalışalım",
+        "sub": "Projenizi bir üst seviyeye taşıyalım",
+        "cta": "Bize Ulaşın"
+    },
+    "preloader": {
+        "production": "PRODUCTION"
+    },
+    "footer": {
+        "rights": "Tüm hakları saklıdır."
+    }
+}

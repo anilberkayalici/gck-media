@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        background-color: #050505;
+        color: #F5F5F5;
+        font-family: 'Inter', system-ui, sans-serif;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    ::selection {
+        background-color: rgba(158, 27, 50, 0.4);
+        color: #F5F5F5;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #050505;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #9E1B32;
+        border-radius: 3px;
+    }
+}
+
+@layer components {
+    .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-hover {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .glass-hover:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(158, 27, 50, 0.4);
+        box-shadow: 0 0 30px rgba(158, 27, 50, 0.15), inset 0 0 30px rgba(158, 27, 50, 0.05);
+    }
+
+    .text-gradient {
+        background: linear-gradient(135deg, #F5F5F5 0%, #9E1B32 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .accent-glow {
+        box-shadow: 0 0 20px rgba(158, 27, 50, 0.3), 0 0 60px rgba(158, 27, 50, 0.1);
+    }
+
+    .section-padding {
+        @apply px-6 md:px-12 lg:px-20 py-20 md:py-32;
+    }
+
+    .skeleton {
+        background: linear-gradient(90deg,
+                rgba(255, 255, 255, 0.05) 25%,
+                rgba(255, 255, 255, 0.1) 50%,
+                rgba(255, 255, 255, 0.05) 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.5rem;
+    }
+}
+
+@layer utilities {
+    .transition-expensive {
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
