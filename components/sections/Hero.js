@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import RotatingText from "@/components/ui/RotatingText";
 import DecryptedText from "@/components/ui/DecryptedText";
 
 export default function Hero({ dict }) {
@@ -10,22 +11,34 @@ export default function Hero({ dict }) {
             className="relative min-h-screen flex items-center justify-center overflow-hidden"
         >
             {/* Background gradient */}
-            <div className="absolute inset-0 bg-gradient-to-b from-deep via-deep to-transparent" />
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(158,27,50,0.08)_0%,transparent_70%)]" />
+            <div className="absolute inset-0 bg-gradient-to-b from-deep via-deep to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(158,27,50,0.08)_0%,transparent_70%)] pointer-events-none" />
 
             {/* Content */}
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 3.8, duration: 1 }}
-                className="relative z-10 text-center px-6 max-w-5xl mx-auto"
+                className="relative z-10 text-center px-4 max-w-5xl mx-auto"
             >
-                <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight tracking-tight mb-6">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-extrabold leading-tight tracking-tight mb-6 flex flex-row flex-wrap justify-center items-center gap-x-3 sm:gap-x-4 gap-y-2 md:gap-y-4">
+                    <RotatingText
+                        texts={dict.hero.rotatingWords}
+                        mainClassName="text-accent whitespace-nowrap drop-shadow-sm"
+                        staggerFrom={"last"}
+                        initial={{ y: "150%" }}
+                        animate={{ y: 0 }}
+                        exit={{ y: "-160%" }}
+                        staggerDuration={0.025}
+                        splitLevelClassName=""
+                        transition={{ type: "spring", damping: 30, stiffness: 400 }}
+                        rotationInterval={2500}
+                    />
                     <DecryptedText
-                        text={dict.hero.headline}
+                        text={dict.hero.headlineStatic}
                         speed={40}
                         delay={4000}
-                        className="inline"
+                        className="inline-block whitespace-nowrap"
                     />
                 </h1>
 

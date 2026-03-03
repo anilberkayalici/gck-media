@@ -6,7 +6,15 @@
         "lang": "EN"
     },
     "hero": {
-        "headline": "Sesinizi Dünyaya Duyurun",
+        "rotatingWords": [
+            "Sesinizi",
+            "Reklamınızı",
+            "Projenizi",
+            "Kalitenizi",
+            "Oyununuzu",
+            "Kitabınızı"
+        ],
+        "headlineStatic": "Dünyaya Duyurun",
         "sub": "Profesyonel seslendirme, dublaj ve medya prodüksiyon hizmetleri",
         "cta": "Keşfedin"
     },

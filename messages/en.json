@@ -6,7 +6,15 @@
         "lang": "TR"
     },
     "hero": {
-        "headline": "Let the World Hear Your Voice",
+        "rotatingWords": [
+            "Your Voice",
+            "Your Ad",
+            "Your Project",
+            "Your Quality",
+            "Your Game",
+            "Your Book"
+        ],
+        "headlineStatic": "to the World",
         "sub": "Professional voiceover, dubbing, and media production services",
         "cta": "Explore"
     },

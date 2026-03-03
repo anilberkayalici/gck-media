@@ -18,7 +18,16 @@ export default function VoiceBank({ artists, dict }) {
 
     const filtered = artists.filter((a) => {
         if (filter === "all") return true;
-        return a.gender?.toLowerCase() === filter;
+        const dbGender = a.gender?.toLowerCase() || "";
+
+        if (filter === "male" || filter === "erkek") {
+            return dbGender === "male" || dbGender === "erkek";
+        }
+        if (filter === "female" || filter === "kadın" || dbGender === "kadin") {
+            return dbGender === "female" || dbGender === "kadın" || dbGender === "kadin";
+        }
+
+        return dbGender === filter;
     });
 
     useEffect(() => {
@@ -82,8 +91,8 @@ export default function VoiceBank({ artists, dict }) {
                             key={f.key}
                             onClick={() => setFilter(f.key)}
                             className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 cursor-pointer ${filter === f.key
-                                    ? "bg-accent text-offwhite shadow-lg shadow-accent/20"
-                                    : "glass text-muted hover:text-offwhite"
+                                ? "bg-accent text-offwhite shadow-lg shadow-accent/20"
+                                : "glass text-muted hover:text-offwhite"
                                 }`}
                         >
                             {f.label}

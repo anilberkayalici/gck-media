@@ -38,7 +38,7 @@ export default function Contact({ dict }) {
                 >
                     <MagneticButton>
                         <a
-                            href="mailto:info@gckmedia.com"
+                            href="mailto:gecekondublaj@gmail.com"
                             className="inline-block px-10 py-4 rounded-full bg-accent text-offwhite font-semibold text-base tracking-wider hover:shadow-[0_0_40px_rgba(158,27,50,0.4)] transition-all duration-500 cursor-pointer"
                         >
                             {dict.contact.cta}
